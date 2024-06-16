@@ -1,3 +1,47 @@
-h1{
-    background-color: aqua;
+.profile{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+}
+.email1,.email2{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 130px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.info{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.head-obj,.head-edu,.head-intern,.head-proj,.head-skill,.head-achieve,.head-pos,.head-extra{
+    background-color: rgb(198, 196, 196);
+    text-align: center;
+    font-size: large;
+    font-style: inherit;
+}
+.row1{
+    list-style-type: none;
+}
+.head-Nedu{
+    display: flex;
+    justify-content:space-between;
+    height:fit-content;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    padding-left: 100px;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.body-Nedu{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 100px;
+    font-size: large;
 }
