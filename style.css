@@ -20,7 +20,7 @@ img{
     padding-left: 15px;
 }
 .head-obj,.head-edu,.head-intern,.head-proj,.head-skill,.head-achieve,.head-pos,.head-extra{
-    background-color: rgb(198, 196, 196);
+    background-color: rgb(191, 154, 154);
     text-align: center;
     font-size: large;
     font-style: inherit;
@@ -47,4 +47,12 @@ img{
 }
 .row3{
     padding-right: 180px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
 }
