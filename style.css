@@ -42,6 +42,9 @@ img{
 .body-Nedu{
     display: flex;
     justify-content:space-between;
-    padding-right: 100px;
+    padding-right: 30px;
     font-size: large;
+}
+.row3{
+    padding-right: 180px;
 }
